@@ -9,4 +9,4 @@ A simple Backbone application that grabs the 10 latest posts from the WordPress 
 - clone this repo
 - run `npm install` to install dependencies
 - run `npm start` to start the local webserver
-- go to [localhost:8000](http://localhost:8000) to see the app running!
+- go to [localhost:8888](http://localhost:8888) to see the app running!
