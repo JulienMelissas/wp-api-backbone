@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WP-API Backbone</title>
+
+    <!--  Include jQuery, Underscore, Backbone -->
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/underscore/underscore-min.js"></script>
+    <script src="../node_modules/backbone/backbone-min.js"></script>
+  </head>
+  <body>
+    <h1>Posts:</h1>
+    <ul id="posts"></ul>
+
+    <script type="text/template" id="post-template">
+      <%= title.rendered %>
+    </script>
+
+    <!--  Include JS-->
+    <script src="app.js"></script>
+  </body>
+</html>
